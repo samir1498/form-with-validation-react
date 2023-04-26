@@ -1,0 +1,25 @@
+.navbar {
+  height: 5rem;
+  height: 3rem;
+  border-bottom: 1px solid;
+}
+
+.navbar__log {
+  padding: 0.5rem;
+  max-height: 3rem;
+  margin-left: 2rem;
+}
+
+@media (max-width: 30rem) {
+  .navbar__log {
+    max-height: 2.5rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 52rem) {
+  .navbar__log {
+    max-height: 3rem;
+    margin-left: 1.5rem;
+  }
+}

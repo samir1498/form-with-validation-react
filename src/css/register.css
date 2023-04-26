@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.container__form {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  gap: 1rem;
+
+  background-color: white;
+  color: black;
+
+  box-shadow: 0 0 6px rgb(0 0 0 / 90%);
+
+  padding: 1rem;
+
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.container__form-title {
+  text-align: center;
+}
+/* make a column span 2 columns */
+.container--span {
+  grid-column: 1/3;
+  width: 100%;
+}
+
+.container__form-group {
+  position: relative;
+  overflow: hidden;
+}
+
+.container__input {
+  width: 100%;
+
+  outline-color: transparent;
+  border: none;
+  border-bottom: 1px solid #888;
+
+  padding: 6px 30px;
+  padding-top: 0.2rem;
+  font-size: 12.1px;
+}
+
+.container__input-radio {
+  margin: 0 0.5rem;
+  padding: 0;
+
+  border: none;
+
+  width: auto;
+
+  font-size: inherit;
+}
+
+.container__icon {
+  font-size: 14px;
+  color: #444;
+}
+
+.container__label {
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  color: #222;
+}
+
+.container--radio {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+
+.container--flex-start {
+  justify-content: flex-start;
+}
+.container--flex-end {
+  justify-content: flex-end;
+}
+
+.container--center {
+  margin: 0.5rem auto;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+@media (max-width: 30rem) {
+  .container {
+    margin: auto 1rem;
+  }
+  .container__form {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 90%;
+  }
+
+  .container--flex-start {
+    justify-content: center;
+  }
+  .container--flex-end {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "prenom",
+    "placeholder": "Prénom",
+    "autoFocus": true,
+    "id": "prenom",
+    "icon": "fa-user",
+    "form-group": "container__form-group"
+  },
+  {
+    "name": "nom",
+    "placeholder": "Nom",
+    "id": "nom",
+    "icon": "fa-user",
+    "form-group": "container__form-group"
+  },
+  {
+    "name": "email",
+    "placeholder": "Email",
+    "id": "email",
+    "icon": "fa-envelope",
+    "form-group": "container__form-group container--span"
+  },
+  {
+    "name": "confirm-email",
+    "placeholder": "Confirm email",
+    "id": "confirm-email",
+    "icon": "fa-envelope",
+    "form-group": "container__form-group container--span"
+  },
+  {
+    "name": "telephone1",
+    "placeholder": "Telephone 1",
+    "id": "telephone1",
+    "icon": "fa-phone",
+    "form-group": "container__form-group"
+  },
+  {
+    "name": "telephone2",
+    "placeholder": "Telephone 2",
+    "id": "telephone2",
+    "icon": "fa-phone",
+    "notRequired": true,
+    "form-group": "container__form-group"
+  },
+  {
+    "name": "birthdate",
+    "type": "date",
+    "id": "birthdate",
+    "icon": "fa-calendar-days",
+    "form-group": "container__form-group container--span"
+  },
+  {
+    "name": "sexe",
+    "id": "gender-m",
+    "className": "container--radio",
+    "type": "radio",
+    "label": "Homme",
+    "labelClass": "",
+    "form-group": "container__form-group container--radio container--flex-end"
+  },
+  {
+    "name": "sexe",
+    "id": "gender-f",
+    "className": "container--radio",
+    "type": "radio",
+    "label": "Femme",
+    "labelClass": "",
+    "form-group": "container__form-group container--radio container--flex-start"
+  }
+]

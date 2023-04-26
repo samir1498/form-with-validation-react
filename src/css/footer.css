@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  border-top: solid 1px;
+  max-height: 4rem;
+
+  margin-top: 1rem;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding: 0 1rem;
+  width: 100%;
+
+  font-size: 0.85rem;
+}
+
+@media (max-width: 30rem) {
+  .footer__copyright {
+    padding: 0 0.25rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 52rem) {
+  .footer__copyright {
+    padding: 0 0.25rem;
+    font-size: 0.8rem;
+  }
+}
