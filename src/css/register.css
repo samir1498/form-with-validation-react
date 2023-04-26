@@ -102,7 +102,7 @@
   .container__form {
     display: flex;
     flex-direction: column;
-
+    gap: 0.65rem;
     min-width: 90%;
   }
 
