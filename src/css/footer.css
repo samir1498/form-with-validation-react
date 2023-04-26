@@ -17,12 +17,10 @@
 @media (max-width: 30rem) {
   .footer__copyright {
     padding: 0 0.25rem;
-    font-size: 0.8rem;
   }
 }
 @media (max-width: 52rem) {
   .footer__copyright {
     padding: 0 0.25rem;
-    font-size: 0.8rem;
   }
 }
