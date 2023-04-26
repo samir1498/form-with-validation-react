@@ -45,7 +45,7 @@ export default function Form() {
           name="signup"
           // container--max-width to resize the button to fit-content
           className="btn btn--primary container--center container--span"
-          value="Register"
+          value="S'inscrire"
         />
       </form>
     </>
