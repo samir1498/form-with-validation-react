@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <>
       <div className="navbar">
-        <p className="navbar__log">Logo</p>
+        <p className="navbar__log"></p>
       </div>
     </>
   )
