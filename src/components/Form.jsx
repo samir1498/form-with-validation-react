@@ -8,15 +8,6 @@ import inputFields from "../input-fields/inputFields.json"
 
 import schema from "../yup-schema/yupSchema"
 
-const defaultValues = {
-  prenom: "John",
-  nom: "Doe",
-  email: "john.doe@example.com",
-  "confirm-email": "john.doe@example.com",
-  telephone1: "0984112060",
-  birthdate: "1975-02-14",
-  sexe: "Homme",
-}
 export default function Form() {
   const {
     register,
@@ -24,7 +15,6 @@ export default function Form() {
     formState: { errors },
   } = useForm({
     resolver: yupResolver(schema),
-    defaultValues,
     mode: "onChange",
   })
 
