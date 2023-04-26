@@ -16,7 +16,7 @@ const schema = yup.object().shape({
   telephone1: yup
     .string()
     .matches(
-      /^(\+\d{1,3})?\s*\(?(\d{3})\)?[\s.-]?\s*(\d{3})[\s.-]?\s*(\d{4})$/,
+      /^((\+\d{1,3})?\s*\(?(\d{3})\)?[\s.-]?\s*(\d{3})[\s.-]?\s*(\d{4}))?$/,
       "Numéro de téléphone invalide"
     )
     .required("Le numéro de téléphone est requis"),
